@@ -155,7 +155,7 @@ namespace Project2_UniInt
         }
         Structure NewStructure(Structure Str1, Structure Str2, int flag) // flag = 0 = "UNI" ; flag = 1 = "INT";
         {
-            if (Str1 != null || Str2 != null)
+            if (Str1 != null && Str2 != null)
             {
                 Structure Struc = new Structure();
                 Struc.Type = "fa";

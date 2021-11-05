@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0F6CDDD8-36BF-4996-8D02-E04C9778919B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Prj2_UniCon</RootNamespace>
-    <AssemblyName>Prj2_UniCon</AssemblyName>
+    <RootNamespace>Project2_UniInt</RootNamespace>
+    <AssemblyName>Project2_UniInt</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -67,6 +67,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
